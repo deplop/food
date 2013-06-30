@@ -1,0 +1,50 @@
+\begin{thebibliography}{1}
+
+\bibitem{ide:inexper}
+Ichiro Ide, Yuka Shidochi, Yuichi Nakamura, Daisuke Deguchi, Tomokazu
+  Takahashi, and Hiroshi Murase.
+\newblock Multimedia supplementation to a cooking recipe text for facilitating
+  its understanding to inexperienced users.
+\newblock In {\em IEEE International Symposium on Multimedia}. TeX Users Group,
+  2010.
+
+\bibitem{morioka:camera-projecter}
+Shunsuke Morioka and Hirotada Ueda.
+\newblock Cooking support system utilizing built-in cameras and projectors.
+\newblock In {\em MVA2011 IAPR Conference on Machine Vision Applications},
+  pages 84--89. TeX Users Group, June 13-15 2011.
+
+\bibitem{nakauchi:recog}
+Y.~Nakauchi, T.~Suzuki, A.~Tokumasu, and S.~Murakami.
+\newblock Cooking procedure recognition and support system by intelligent
+  environments.
+\newblock In {\em RIISS '09}. TeX Users Group, 2009.
+
+\bibitem{Qian:2004:SEC:967900.968151}
+Gang Qian, Shamik Sural, Yuelong Gu, and Sakti Pramanik.
+\newblock Similarity between euclidean and cosine angle distance for nearest
+  neighbor queries.
+\newblock In {\em Proceedings of the 2004 ACM symposium on Applied computing},
+  SAC '04, pages 1232--1237, New York, NY, USA, 2004. ACM.
+
+\bibitem{villalobos:image-calorie}
+G.~Villalobos, R.~Almaghrabi, P.~Pouladzadeh, and S.~Shirmohammadi.
+\newblock An image procesing approach for calorie intake measurement.
+\newblock 2012.
+
+\bibitem{cosine}
+Wiki.
+\newblock Cosine similarity.
+\newblock \url{http://en.wikipedia.org/wiki/Cosine\_similarity}.
+
+\bibitem{euclidean}
+Wiki.
+\newblock Euclidean distance.
+\newblock \url{http://en.wikipedia.org/wiki/Euclidean\_distance}.
+
+\bibitem{web:recipe}
+Wiki.
+\newblock Typical foods by area.
+\newblock \url{http://www.s-recipe.com/}.
+
+\end{thebibliography}

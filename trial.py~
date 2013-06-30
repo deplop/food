@@ -1,0 +1,5 @@
+from jNlp.jConvert import *
+
+input_sentence = u''
+print ' '.join(tokenizedRomaji(input_sentence))
+print tokenizedRomaji(input_sentence)

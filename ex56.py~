@@ -1,0 +1,20 @@
+from BeautifulSoup import BeautifulSoup
+import urllib2
+
+url='http://feeds.feedburner.com/japantimes'
+page=urllib2.urlopen(url)
+soup=BeautifulSoup(page.read())
+
+#use findAll
+links=soup.findAll('feedburner:origlink')
+i=0
+for link in links:
+    if(i<2):
+        article_page=urllib2.urlopen(link.text)
+        article=BeautifulSoup(article_page)
+        title=article.find('h1',{'id':'headline'}).text.encode('utf-8')
+        para=article.find('div',{'id':'mainbody'}).text.encode('utf-8')
+        print title,para
+        print '*********************'
+        i+=1
+
