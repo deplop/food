@@ -16,7 +16,7 @@ import zenhan
 import math
 import MeCab
 import difflib
-
+import Export
 
 """get all links content recipe"""
 def extract_link():
@@ -365,26 +365,29 @@ def select_available(inputed_materials,dishes_dict):#input_materials is the dict
     for recipe,val in dishes_dict.iteritems():
         count = 0
         for material in inputed_materials.iteritems():
-            if !val[3].has_key(material):
+            if val[3].has_key(material)==false:
                 count+=1
         recipes_index.update({recipe:count})
     
     #sort recipe by count value
         
-
+     
     
 def main():
     reload(sys)
     sys.setdefaultencoding( "utf-8")
     #getData()
     dishes_dict=readPickle()
+    out = Export.Export(dishes_dict)
+    out.write2XML("first.xml")
     #printText(dishes_dict)
     #printAllElements(dishes_dict)
     areas=["hokkaido_tohoku","kanto","tyubu","kinki","tyugoku","shikoku","kyusyu_okinawa"]
-    printIDF(dishes_dict)
-    printTF(areas,dishes_dict)
-    printTFIDF(areas,dishes_dict)
-    save2CSV(dishes_dict)
-    readCSV("elements.csv")
+    #printText(dishes_dict)
+    #printIDF(dishes_dict)
+    #printTF(areas,dishes_dict)
+    #printTFIDF(areas,dishes_dict)
+    #save2CSV(dishes_dict)
+    #readCSV("elements.csv")
 if __name__== '__main__':
     main()
